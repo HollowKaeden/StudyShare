@@ -1,0 +1,35 @@
+.file-list-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 18px;
+  }
+  
+  .no-files {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .file-item {
+    list-style: none;
+    margin: 10px 0;
+  }
+  
+  .file-link {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .file-link:hover {
+    text-decoration: underline;
+  }
+  

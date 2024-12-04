@@ -1,0 +1,40 @@
+/* Стили для контейнера страницы */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7fafc;
+    padding: 20px;
+  }
+  
+  .welcome-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .welcome-message a {
+    font-weight: bold;
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .welcome-message a:hover {
+    color: #2563eb;
+  }
+  
+  /* Контейнер для дисциплин */
+  .subjects-container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  

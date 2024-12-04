@@ -1,0 +1,47 @@
+/* Стили для контейнера страницы дисциплин */
+.subjects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Сужаем расстояние между заголовками */
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 0px;
+}
+
+.subjects-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;  /* Уменьшаем расстояние между заголовком и списком */
+}
+
+.subjects-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.subject-item {
+  margin: 10px 0;
+}
+
+.subject-link {
+  display: block;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 3px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.subject-link:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.subject-link:active {
+  transform: translateY(2px);
+}
+  
